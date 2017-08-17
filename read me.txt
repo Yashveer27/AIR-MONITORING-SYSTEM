@@ -1,0 +1,21 @@
+
+
+READ ME
+
+
+
+HARDWARE PART-
+here we have air monitoring system HARDWARE
+which include mq 135 which is a air quality sensor which is very sensittive to smoke and harmful gases like NO DERIVATIVES,SO2 ETC
+NOW COMING ON CONNECTIONS
+this a0 pin  is for analog output which is going to connect in ANY  analog pin of arduino i am connecting in a0.
+and vcc and gnd of mq 135 is connectedto vcc and gnd of arduino respectively.
+
+
+now we are going to place bluetooth sensor HC 05 ON BREAD BOARD THIS IS HC 05  we are going to use only 4 pin of bt sensor.vcc,gnd,rx(receiver),tx (transmitter). vcc 
+and gnd connection are same  as explained earlier .but rx and tx is connected on tx and rx of arduino .
+
+THEN WE ARE GOING TO UPLOAD ARDUINO  CODE ON THE BOARD
+
+ Then after uploading code run proceesing code and side by side run phython mail sending.
+then automatically when file.txt become 1 email is send .
