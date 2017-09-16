@@ -7,7 +7,7 @@ while(1):
         try:
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login("science.reactor85@gmail.com", "c@rrot007")
+            server.login("abc@gmail.com", "abc")
             
             msg = "yashveer kuch nahi yr jo hota hai theek hota hai"
             server.sendmail("your email adresss", "adrash2601singh@gmail.com", msg)
